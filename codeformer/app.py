@@ -84,7 +84,7 @@ codeformer_net.eval()
 os.makedirs("output", exist_ok=True)
 
 
-def code_inference(image, background_enhance, face_upsample, upscale, codeformer_fidelity):
+def enhancer_inference(image, background_enhance, face_upsample, upscale, codeformer_fidelity):
     # take the default setting for the demo
     has_aligned = False
     only_center_face = False
