@@ -130,7 +130,7 @@ def enhancer_inference(image, background_enhance, face_upsample, upscale, codefo
         num_det_faces = face_helper.get_face_landmarks_5(
             only_center_face=only_center_face, resize=640, eye_dist_threshold=5
         )
-        print(f"\tdetect {num_det_faces} faces")
+        # print(f"\tdetect {num_det_faces} faces")
         # align and warp each face
         face_helper.align_warp_face()
 
