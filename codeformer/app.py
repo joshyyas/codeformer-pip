@@ -173,7 +173,7 @@ def inference_app(image, background_enhance, face_upsample, upscale, codeformer_
         else:
             restored_img = face_helper.paste_faces_to_input_image(upsample_img=bg_img, draw_box=draw_box)
 
-    return restored_img
+        return restored_img
     # # save restored img
     # save_path = f"output/out.png"
     # imwrite(restored_img, str(save_path))
