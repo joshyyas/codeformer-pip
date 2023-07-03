@@ -33,14 +33,14 @@ _DEV_REQUIREMENTS = [
 
 
 setuptools.setup(
-    name="codeformer-pip",
+    name="codeformer-test",
     version=get_version(),
     author="kadirnar",
     license="S-Lab",
     description="PyTorch implementation of CodeFormer",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
-    url="https://github.com/kadirnar/codeformer-pip",
+    url="https://github.com/joshyyas/codeformer-pip",
     packages=setuptools.find_packages(exclude=["tests"]),
     include_package_data=True,
     python_requires=">=3.6",
