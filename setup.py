@@ -33,7 +33,7 @@ _DEV_REQUIREMENTS = [
 
 
 setuptools.setup(
-    name="codeformer-test",
+    name="codeformer-module",
     version=get_version(),
     author="kadirnar",
     license="S-Lab",
