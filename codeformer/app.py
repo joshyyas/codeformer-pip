@@ -90,10 +90,10 @@ def inference_app(image, background_enhance, face_upsample, upscale, codeformer_
     only_center_face = False
     draw_box = False
     detection_model = "retinaface_resnet50"
-    print("Inp:", image, background_enhance, face_upsample, upscale, codeformer_fidelity)
+    # print("Inp:", image, background_enhance, face_upsample, upscale, codeformer_fidelity)
 
     img = cv2.imread(str(image), cv2.IMREAD_COLOR)
-    print("\timage size:", img.shape)
+    # print("\timage size:", img.shape)
 
     upscale = int(upscale)  # convert type to int
     if upscale > 4:  # avoid memory exceeded due to too large upscale
